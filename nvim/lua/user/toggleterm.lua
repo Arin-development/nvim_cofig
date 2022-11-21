@@ -4,8 +4,8 @@ if not status_ok then
 end
 
 toggleterm.setup({
-	size = 20,
-	open_mapping = [[<leader>tt]],
+	size = 20, 
+  open_mapping = [[<leader>tt]],
 	hide_numbers = true,
 	shade_terminals = true,
 	shading_factor = 2,

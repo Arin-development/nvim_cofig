@@ -60,8 +60,16 @@ return packer.startup(function(use)
   use { 'iamcco/markdown-preview.nvim', commit = "02cc3874738bc0f86e4b91f09b8a0ac88aef8e96" }
   use { 'fatih/vim-go', commit = "22b2273cfe562ac1c1af976ce77f18a3b1776f3c" }
   use { 'norcalli/nvim-colorizer.lua', commit = "36c610a9717cc9ec426a07c8e6bf3b3abcb139d6" }
-  use { 'folke/todo-comments.nvim', commit = "bca0e00644c22a3eecedce703c0db080dd6bdc55" }
-
+  use {
+    "folke/which-key.nvim",
+    config = function()
+      require("which-key").setup {
+        registers = NORMAL, -- your configuration comes here
+        -- or leave it empty to use the default settings
+        -- refer to the configuration section below
+      }
+    end
+  }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim", commit = "9fba0cdd05382a427dafaa2b8ebb4aba99126bc0" }

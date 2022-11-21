@@ -68,3 +68,5 @@ keymap("n", "<leader>fb", ":Telescope buffers<CR>", opts)
 -- Git
 keymap("n", "<leader>gg", "<cmd>lua _LAZYGIT_TOGGLE()<CR>", opts)
 
+--Terminal
+keymap("n", "<leader>th", ":ToggleTerm size=12 dir=~/Code direction=horizontal<CR>", opts)

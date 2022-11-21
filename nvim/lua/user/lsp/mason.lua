@@ -10,6 +10,8 @@ local servers = {
   "yamlls",
   "angularls",
   "dockerls",
+  "golangci_lint_ls",
+  "gopls",
   "lemminx",
   "marksman",
   "tflint",
