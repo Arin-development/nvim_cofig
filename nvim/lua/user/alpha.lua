@@ -5,12 +5,32 @@ end
 
 local dashboard = require "alpha.themes.dashboard"
 dashboard.section.header.val = {
-  [[                               __                ]],
-  [[  ___     ___    ___   __  __ /\_\    ___ ___    ]],
-  [[ / _ `\  / __`\ / __`\/\ \/\ \\/\ \  / __` __`\  ]],
-  [[/\ \/\ \/\  __//\ \_\ \ \ \_/ |\ \ \/\ \/\ \/\ \ ]],
-  [[\ \_\ \_\ \____\ \____/\ \___/  \ \_\ \_\ \_\ \_\]],
-  [[ \/_/\/_/\/____/\/___/  \/__/    \/_/\/_/\/_/\/_/]],
+  [[           u]],
+  [[      .  x!X]],
+  [[    ."X M~~>]],
+  [[   d~~XX~~~k    .u.xZ `\ \ "%]],
+  [[  d~~~M!~~~?..+"~~~~~?:  "    h]],
+  [[ '~~~~~~~~~~~~~~~~~~~~~?      `]],
+  [[ 4~~~~~~~~~~~~~~~~~~~~~~>     ']],
+  [[ ':~~~~~~~~~~(X+"" X~~~~>    xHL]],
+  [[  %~~~~~(X="      'X"!~~% :RMMMRMRs]],
+  [[   ^"*f`          ' (~~~~~MMMMMMMMMMMx]],
+  [[     f     /`   %   !~~~~~MMMMMMMMMMMMMc]],
+  [[     F    ?      '  !~~~~~!MMMMMMMMMMMMMM.]],
+  [[    ' .  :": "   :  !X""(~~?MMMMMMMMMMMMMMh]],
+  [[    'x  .~  ^-+="   ? "f4!*  #MMMMMMMMMMMMMM.]],
+  [[     /"               .."     `MMMMMMMMMMMMMM]],
+  [[     h ..             '         #MMMMMMMMMMMM]],
+  [[    f                '          @MMMMMMMMMMM]],
+  [[  :         .:=""     >       dMMMMMMMMMMMMM]],
+  [[   "+mm+=~("           RR     @MMMMMMMMMMMMM"]],
+  [[           %          (MMNmHHMMMMMMMMMMMMMMF]],
+  [[          uR5         @MMMMMMMMMMMMMMMMMMMF]],
+  [[        dMRMM>       dMMMMMMMMMMMMMMMMMMMF]],
+  [[       RM$MMMF=x..=" RMRM$MMMMMMMMMMMMMMF]],
+  [[      MMMMMMM       'MMMMMMMMMMMMMMMMMMF]],
+  [[     dMMRMMMK       'MMMMMMMMMMMMMMMMM"]],
+
 }
 dashboard.section.buttons.val = {
   dashboard.button("f", " " .. " Find file", ":Telescope find_files <CR>"),
@@ -22,7 +42,7 @@ dashboard.section.buttons.val = {
   dashboard.button("q", " " .. " Quit", ":qa<CR>"),
 }
 local function footer()
-  return "Good Code!"
+  return "Make Cool Stuff!"
 end
 
 dashboard.section.footer.val = footer()
