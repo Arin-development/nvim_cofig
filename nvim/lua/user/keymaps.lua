@@ -15,6 +15,7 @@ vim.g.mapleader = " "
 --   term_mode = "t",
 --   command_mode = "c",
 
+
 -- Normal --
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
@@ -32,7 +33,7 @@ keymap("n", "<S-Right>", ":vertical resize +2<CR>", opts)
 keymap('n', '<Leader>w', ':w<cr>', opts)
 
 -- quit
-keymap('n', '<Leader>q', ':bd<cr>', opts)
+keymap('n', '<Leader>q', ':Bdelete<cr>', opts)
 keymap('n', '<Leader>Q', ':q!<cr>', opts)
 keymap('n', '<Leader>wq', ':wq<cr>', opts)
 keymap('n', 'q', ':q<cr>', opts)
@@ -50,6 +51,8 @@ keymap("n", "<S-q>", "<cmd>Bdelete!<CR>", opts)
 -- Better paste
 keymap("v", "p", '"_dP', opts)
 
+--Save all Buffer
+keymap("n", "<leader>s", ":wa<CR>", opts)
 -- Insert --
 -- Press jk fast to enter
 keymap("i", "jk", "<ESC>", opts)
